@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FEDS
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <floodEvent>
+        <coreDisasterInformation>
+            <floodEventID type="xs:integer" use="required"></floodEventID>
+            <floodEventCode type="xs:string" use="required"></floodEventCode>
+            <glideNumber type="xs:string" use="required"></glideNumber>
+            <eventDate type="xs:date" use="required"></eventDate>
+            <city type="xs:string" use="required"></city>
+            <state type="xs:string" use="required"></state>
+            <country type="xs:string" use="required"></country>
+            <floodType type="xs:string" use="required"></floodType>
+        </coreDisasterInformation>
+        <location>
+            <floodEventID type="xs:integer"></floodEventID>
+            <district type="xs:string"></district>
+            <vicinity type="xs:string"></vicinity>
+            <area>
+                <polygon>
+                    <outerBoundary>
+                        <coordinates>
+                            <!--
+                     lat, long
+                     lat, long
+                     lat, long
+                     lat, long
+                     lat, long
+                     lat, long
+                     -->
+                        </coordinates>
+                    </outerBoundary>
+                    <innerBoundary>
+                        <coordinates>
+                            <!--
+                     lat, long
+                     lat, long
+                     lat, long
+                     lat, long
+                     lat, long
+                     lat, long
+                     -->
+                        </coordinates>
+                    </innerBoundary>
+                </polygon>
+            </area>
+            <location>
+                <point>
+                    <coordinates>
+                        <!-- latitude,longitude -->
+                    </coordinates>
+                </point>
+            </location>
+        </location>
+        <hydraulicsAndHydrology>
+            <floodEventID type="xs:integer"></floodEventID>
+            <duration type="xs:decimal"></duration>
+            <flowVelocity type="xs:decimal"></flowVelocity>
+            <triggeringFactor type="xs:string"></triggeringFactor>
+            <frequency type="xs:integer"></frequency>
+            <intensity type="xs:string"></intensity>
+            <floodedRiver type="xs:string"></floodedRiver>
+            <floodExtentMap>
+                <polygon>
+                    <outerBoundary>
+                        <coordinates>
+                            <!--
+                     lat, long
+                     lat, long
+                     lat, long
+                     lat, long
+                     lat, long
+                     lat, long
+                     -->
+                        </coordinates>
+                    </outerBoundary>
+                    <innerBoundary>
+                        <coordinates>
+                            <!--
+                     lat, long
+                     lat, long
+                     lat, long
+                     lat, long
+                     lat, long
+                     lat, long
+                     -->
+                        </coordinates>
+                    </innerBoundary>
+                </polygon>
+            </floodExtentMap>
+            <floodDepthMap type="xs:string">
+                <imageOverlay>
+                    <image>
+                        <!-- image.jpg -->
+                    </image>
+                    <LatLonBox>
+                        <north>
+                            <!-- north -->
+                        </north>
+                        <south>
+                            <!-- south -->
+                        </south>
+                        <east>
+                            <!-- east -->
+                        </east>
+                        <west>
+                            <!-- west -->
+                        </west>
+                    </LatLonBox>
+                </imageOverlay>
+            </floodDepthMap>
+            <floodVelocityMap type="xs:string">
+                <imageOverlay>
+                    <image>
+                        <!-- image.jpg -->
+                    </image>
+                    <LatLonBox>
+                        <north>
+                            <!-- north -->
+                        </north>
+                        <south>
+                            <!-- south -->
+                        </south>
+                        <east>
+                            <!-- east -->
+                        </east>
+                        <west>
+                            <!-- west -->
+                        </west>
+                    </LatLonBox>
+                </imageOverlay>
+            </floodVelocityMap>
+            <referencePoint type="xs:string"></referencePoint>
+            <peakDischarge type="xs:decimal"></peakDischarge>
+            <peakDischargeTime type="xs:date"></peakDischargeTime>
+            <peakWaterLevel type="xs:decimal"></peakWaterLevel>
+            <peakWaterLevelTime type="xs:date"></peakWaterLevelTime>
+            <stationLocation>
+                <point>
+                    <coordinates>
+                        <!-- latitude,longitude -->
+                    </coordinates>
+                </point>
+            </stationLocation>
+        </hydraulicsAndHydrology>
+        <meteorology>
+            <floodEventID type="xs:integer"></floodEventID>
+            <referenceStation type="xs:string"></referenceStation>
+            <stationLocation>
+                <point>
+                    <coordinates>
+                        <!-- latitude,longitude -->
+                    </coordinates>
+                </point>
+            </stationLocation>
+            <totalPrecipitation type="xs:decimal"></totalPrecipitation>
+            <precipitationDuration type="xs:decimal"></precipitationDuration>
+            <totalPrecipitationMap type="xs:string">
+                <imageOverlay>
+                    <image>
+                        <!-- image.jpg -->
+                    </image>
+                    <LatLonBox>
+                        <north>
+                            <!-- north -->
+                        </north>
+                        <south>
+                            <!-- south -->
+                        </south>
+                        <east>
+                            <!-- east -->
+                        </east>
+                        <west>
+                            <!-- west -->
+                        </west>
+                    </LatLonBox>
+                </imageOverlay>
+            </totalPrecipitationMap>
+        </meteorology>
+        <environmentalImpact>
+            <floodEventID type="xs:integer"></floodEventID>
+            <waterQuality type="xs:string"></waterQuality>
+            <soilContamination type="xs:string"></soilContamination>
+            <soilLoss type="xs:string"></soilLoss>
+            <landSlide type="xs:string"></landSlide>
+            <habitat type="xs:string"></habitat>
+        </environmentalImpact>
+        <demographicImpact>
+            <floodEventID type="xs:integer"></floodEventID>
+            <fatalities type="xs:integer"></fatalities>
+            <injured type="xs:integer"></injured>
+            <missing type="xs:integer"></missing>
+            <indirectAffected type="xs:integer"></indirectAffected>
+            <displaced type="xs:integer"></displaced>
+            <evacuated type="xs:integer"></evacuated>
+        </demographicImpact>
+        <economicImpact>
+            <floodEventID type="xs:integer"></floodEventID>
+            <destroyedProperty type="xs:integer"></destroyedProperty>
+            <totalDamagedBuildings type="xs:integer"></totalDamagedBuildings>
+            <floodedResidential type="xs:integer"></floodedResidential>
+            <floodedBusiness type="xs:integer"></floodedBusiness>
+            <floodedPublicBuildings type="xs:integer"></floodedPublicBuildings>
+            <floodedVehicles type="xs:integer"></floodedVehicles>
+            <floodedAgriculturalLand  type="xs:decimal"></floodedAgriculturalLand>
+            <perishedCattle type="xs:integer"></perishedCattle>
+            <perishedOvine type="xs:integer"></perishedOvine>
+            <perishedPoultry type="xs:integer"></perishedPoultry>
+            <damagedInfrastructure type="xs:string"></damagedInfrastructure>
+            <totalDirectEconomicLoss type="xs:decimal"></totalDirectEconomicLoss>
+            <directResidentialLoss type="xs:decimal"></directResidentialLoss>
+            <directBusinessLoss type="xs:decimal"></directBusinessLoss>
+            <directAgriculturalLoss type="xs:decimal"></directAgriculturalLoss>
+            <directPublicLoss type="xs:decimal"></directPublicLoss>
+        </economicImpact>
+        <resources>
+            <floodEventID type="xs:integer"></floodEventID>
+            <resourceID type="xs:integer"></resourceID>
+            <type type="xs:string"></type>
+            <website type="xs:string"></website>
+            <file type="xs:string"></file>
+            <description type="xs:string"></description>
+        </resources>
+    </floodEvent>
+</FEDS>

@@ -1,0 +1,290 @@
+{
+   "FEDS": {
+      "floodEvent": {
+         "coreDisasterInformation": {
+            "floodEventID": {
+               "_type": "integer",
+               "_use": "required"
+            },
+            "floodEventCode": {
+               "_type": "string",
+               "_use": "required"
+            },
+            "glideNumber": {
+               "_type": "string",
+               "_use": "required"
+            },
+            "eventDate": {
+               "_type": "date",
+               "_use": "required"
+            },
+            "city": {
+               "_type": "string",
+               "_use": "required"
+            },
+            "state": {
+               "_type": "string",
+               "_use": "required"
+            },
+            "country": {
+               "_type": "string",
+               "_use": "required"
+            },
+            "floodType": {
+               "_type": "string",
+               "_use": "required"
+            }
+         },
+         "location": {
+            "floodEventID": {
+               "_type": "integer"
+            },
+            "district": {
+               "_type": "string"
+            },
+            "vicinity": {
+               "_type": "string"
+            },
+            "area": {
+               "polygon": {
+                  "outerBoundary": {
+                     "coordinates": {}
+                  },
+                  "innerBoundary": {
+                     "coordinates": {}
+                  }
+               }
+            },
+            "location": {
+               "point": {
+                  "coordinates": {}
+               }
+            }
+         },
+         "hydraulicsAndHydrology": {
+            "floodEventID": {
+               "_type": "integer"
+            },
+            "duration": {
+               "_type": "decimal"
+            },
+            "flowVelocity": {
+               "_type": "decimal"
+            },
+            "triggeringFactor": {
+               "_type": "string"
+            },
+            "frequency": {
+               "_type": "integer"
+            },
+            "intensity": {
+               "_type": "string"
+            },
+            "floodedRiver": {
+               "_type": "string"
+            },
+            "floodExtentMap": {
+               "polygon": {
+                  "outerBoundary": {
+                     "coordinates": {}
+                  },
+                  "innerBoundary": {
+                     "coordinates": {}
+                  }
+               }
+            },
+            "floodDepthMap": {
+               "imageOverlay": {
+                  "image": {},
+                  "LatLonBox": {
+                     "north": {},
+                     "south": {},
+                     "east": {},
+                     "west": {}
+                  }
+               },
+               "_type": "string"
+            },
+            "floodVelocityMap": {
+               "imageOverlay": {
+                  "image": {},
+                  "LatLonBox": {
+                     "north": {},
+                     "south": {},
+                     "east": {},
+                     "west": {}
+                  }
+               },
+               "_type": "string"
+            },
+            "referencePoint": {
+               "_type": "string"
+            },
+            "peakDischarge": {
+               "_type": "decimal"
+            },
+            "peakDischargeTime": {
+               "_type": "date"
+            },
+            "peakWaterLevel": {
+               "_type": "decimal"
+            },
+            "peakWaterLevelTime": {
+               "_type": "date"
+            },
+            "stationLocation": {
+               "point": {
+                  "coordinates": {}
+               }
+            }
+         },
+         "meteorology": {
+            "floodEventID": {
+               "_type": "integer"
+            },
+            "referenceStation": {
+               "_type": "string"
+            },
+            "stationLocation": {
+               "point": {
+                  "coordinates": {}
+               }
+            },
+            "totalPrecipitation": {
+               "_type": "decimal"
+            },
+            "precipitationDuration": {
+               "_type": "decimal"
+            },
+            "totalPrecipitationMap": {
+               "imageOverlay": {
+                  "image": {},
+                  "LatLonBox": {
+                     "north": {},
+                     "south": {},
+                     "east": {},
+                     "west": {}
+                  }
+               },
+               "_type": "string"
+            }
+         },
+         "environmentalImpact": {
+            "floodEventID": {
+               "_type": "integer"
+            },
+            "waterQuality": {
+               "_type": "string"
+            },
+            "soilContamination": {
+               "_type": "string"
+            },
+            "soilLoss": {
+               "_type": "string"
+            },
+            "landSlide": {
+               "_type": "string"
+            },
+            "habitat": {
+               "_type": "string"
+            }
+         },
+         "demographicImpact": {
+            "floodEventID": {
+               "_type": "integer"
+            },
+            "fatalities": {
+               "_type": "integer"
+            },
+            "injured": {
+               "_type": "integer"
+            },
+            "missing": {
+               "_type": "integer"
+            },
+            "indirectAffected": {
+               "_type": "integer"
+            },
+            "displaced": {
+               "_type": "integer"
+            },
+            "evacuated": {
+               "_type": "integer"
+            }
+         },
+         "economicImpact": {
+            "floodEventID": {
+               "_type": "integer"
+            },
+            "destroyedProperty": {
+               "_type": "integer"
+            },
+            "totalDamagedBuildings": {
+               "_type": "integer"
+            },
+            "floodedResidential": {
+               "_type": "integer"
+            },
+            "floodedBusiness": {
+               "_type": "integer"
+            },
+            "floodedPublicBuildings": {
+               "_type": "integer"
+            },
+            "floodedVehicles": {
+               "_type": "integer"
+            },
+            "floodedAgriculturalLand": {
+               "_type": "decimal"
+            },
+            "perishedCattle": {
+               "_type": "integer"
+            },
+            "perishedOvine": {
+               "_type": "integer"
+            },
+            "perishedPoultry": {
+               "_type": "integer"
+            },
+            "damagedInfrastructure": {
+               "_type": "string"
+            },
+            "totalDirectEconomicLoss": {
+               "_type": "decimal"
+            },
+            "directResidentialLoss": {
+               "_type": "decimal"
+            },
+            "directBusinessLoss": {
+               "_type": "decimal"
+            },
+            "directAgriculturalLoss": {
+               "_type": "decimal"
+            },
+            "directPublicLoss": {
+               "_type": "decimal"
+            }
+         },
+         "resources": {
+            "floodEventID": {
+               "_type": "integer"
+            },
+            "resourceID": {
+               "_type": "integer"
+            },
+            "type": {
+               "_type": "string"
+            },
+            "website": {
+               "_type": "string"
+            },
+            "file": {
+               "_type": "string"
+            },
+            "description": {
+               "_type": "string"
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,332 @@
+{
+   "FEDS": {
+      "floodEvent": {
+         "coreDisasterInformation": {
+            "floodEventID": {
+               "_type": "integer",
+               "_use": "required",
+               "value": "2010"
+            },
+            "floodEventCode": {
+               "_type": "string",
+               "_use": "required",
+               "value": "3792"
+            },
+            "glideNumber": {
+               "_type": "string",
+               "_use": "required",
+               "value": "FL-2015-000112-TUR"
+            },
+            "eventDate": {
+               "_type": "date",
+               "_use": "required",
+               "value": "11/12/2015"
+            },
+            "city": {
+               "_type": "string",
+               "_use": "required",
+               "value": "Borcka"
+            },
+            "state": {
+               "_type": "string",
+               "_use": "required",
+               "value": "Artvin"
+            },
+            "country": {
+               "_type": "string",
+               "_use": "required",
+               "value": "Turkey"
+            },
+            "floodType": {
+               "_type": "string",
+               "_use": "required",
+               "value": "Riverine"
+            }
+         },
+         "location": {
+            "floodEventID": {
+               "_type": "integer",
+               "value": "2010"
+            },
+            "district": {
+               "_type": "string",
+               "value": "Borcka"
+            },
+            "vicinity": {
+               "_type": "string"
+            },
+            "area": {
+               "polygon": {
+                  "outerBoundary": {
+                     "coordinates": {}
+                  },
+                  "innerBoundary": {
+                     "coordinates": {}
+                  }
+               }
+            },
+            "location": {
+               "point": {
+                  "coordinates": "41.360471, 41.677078"
+               }
+            }
+         },
+         "hydraulicsAndHydrology": {
+            "floodEventID": {
+               "_type": "integer",
+               "value": "2010"
+            },
+            "duration": {
+               "_type": "decimal",
+               "value": "3"
+            },
+            "flowVelocity": {
+               "_type": "decimal",
+               "value": "8.4"
+            },
+            "triggeringFactor": {
+               "_type": "string",
+               "value": "Snowmelt"
+            },
+            "frequency": {
+               "_type": "integer",
+               "value": "200"
+            },
+            "intensity": {
+               "_type": "string"
+            },
+            "floodedRiver": {
+               "_type": "string",
+               "value": "Coruh River"
+            },
+            "floodExtentMap": {
+               "polygon": {
+                  "outerBoundary": {
+                     "coordinates": {}
+                  },
+                  "innerBoundary": {
+                     "coordinates": {}
+                  }
+               }
+            },
+            "floodDepthMap": {
+               "imageOverlay": {
+                  "image": {},
+                  "LatLonBox": {
+                     "north": {},
+                     "south": {},
+                     "east": {},
+                     "west": {}
+                  }
+               },
+               "_type": "string"
+            },
+            "floodVelocityMap": {
+               "imageOverlay": {
+                  "image": {},
+                  "LatLonBox": {
+                     "north": {},
+                     "south": {},
+                     "east": {},
+                     "west": {}
+                  }
+               },
+               "_type": "string"
+            },
+            "referencePoint": {
+               "_type": "string",
+               "value": "Borcka Station 15"
+            },
+            "peakDischarge": {
+               "_type": "decimal",
+               "value": "390.5"
+            },
+            "peakDischargeTime": {
+               "_type": "date",
+               "value": "2015-11-12-09:15"
+            },
+            "peakWaterLevel": {
+               "_type": "decimal",
+               "value": "15"
+            },
+            "peakWaterLevelTime": {
+               "_type": "date",
+               "value": "2015-11-12-09:15"
+            },
+            "stationLocation": {
+               "point": {
+                  "coordinates": {}
+               }
+            }
+         },
+         "meteorology": {
+            "floodEventID": {
+               "_type": "integer",
+               "value": "2010"
+            },
+            "referenceStation": {
+               "_type": "string",
+               "value": "BORÇKA, Station 18555"
+            },
+            "stationLocation": {
+               "point": {
+                  "coordinates": "41.374991, 41.627960"
+               }
+            },
+            "totalPrecipitation": {
+               "_type": "decimal",
+               "value": "150"
+            },
+            "precipitationDuration": {
+               "_type": "decimal",
+               "value": "8"
+            },
+            "totalPrecipitationMap": {
+               "imageOverlay": {
+                  "image": {},
+                  "LatLonBox": {
+                     "north": {},
+                     "south": {},
+                     "east": {},
+                     "west": {}
+                  }
+               },
+               "_type": "string"
+            }
+         },
+         "environmentalImpact": {
+            "floodEventID": {
+               "_type": "integer",
+               "value": "2010"
+            },
+            "waterQuality": {
+               "_type": "string"
+            },
+            "soilContamination": {
+               "_type": "string"
+            },
+            "soilLoss": {
+               "_type": "string"
+            },
+            "landSlide": {
+               "_type": "string"
+            },
+            "habitat": {
+               "_type": "string"
+            }
+         },
+         "demographicImpact": {
+            "floodEventID": {
+               "_type": "integer",
+               "value": "2010"
+            },
+            "fatalities": {
+               "_type": "integer",
+               "value": "1"
+            },
+            "injured": {
+               "_type": "integer",
+               "value": "11"
+            },
+            "missing": {
+               "_type": "integer",
+               "value": "2"
+            },
+            "indirectAffected": {
+               "_type": "integer"
+            },
+            "displaced": {
+               "_type": "integer",
+               "value": "10"
+            },
+            "evacuated": {
+               "_type": "integer",
+               "value": "20"
+            }
+         },
+         "economicImpact": {
+            "floodEventID": {
+               "_type": "integer",
+               "value": "2010"
+            },
+            "destroyedProperty": {
+               "_type": "integer",
+               "value": "3"
+            },
+            "totalDamagedBuildings": {
+               "_type": "integer",
+               "value": "10"
+            },
+            "floodedResidential": {
+               "_type": "integer",
+               "value": "7"
+            },
+            "floodedBusiness": {
+               "_type": "integer",
+               "value": "3"
+            },
+            "floodedPublicBuildings": {
+               "_type": "integer"
+            },
+            "floodedVehicles": {
+               "_type": "integer",
+               "value": "14"
+            },
+            "floodedAgriculturalLand": {
+               "_type": "decimal"
+            },
+            "perishedCattle": {
+               "_type": "integer"
+            },
+            "perishedOvine": {
+               "_type": "integer"
+            },
+            "perishedPoultry": {
+               "_type": "integer"
+            },
+            "damagedInfrastructure": {
+               "_type": "string"
+            },
+            "totalDirectEconomicLoss": {
+               "_type": "decimal"
+            },
+            "directResidentialLoss": {
+               "_type": "decimal"
+            },
+            "directBusinessLoss": {
+               "_type": "decimal"
+            },
+            "directAgriculturalLoss": {
+               "_type": "decimal"
+            },
+            "directPublicLoss": {
+               "_type": "decimal"
+            }
+         },
+         "resources": {
+            "floodEventID": {
+               "_type": "integer",
+               "value": "2010"
+            },
+            "resourceID": {
+               "_type": "integer",
+               "value": "21"
+            },
+            "type": {
+               "_type": "string"
+            },
+            "website": {
+               "_type": "string",
+               "value": "http://www.hurriyet.com.tr/artvindeki-sel-felaketinde-olu-sayisi-ikiye-yukseldi-40013030"
+            },
+            "file": {
+               "_type": "string"
+            },
+            "description": {
+               "_type": "string",
+               "value": "AFAD'dan yapılan yazılı açıklamada, Artvin'in Hopa, Borçka ve Murgul ilçelerinde dün akşamdan itibaren yağışın etkili olduğu bildirildi.\n                GENELKURMAY KURTARMA ÇALIŞMALARINDA\n                Borçka'da aşırı yağış nedeniyle 2 binada mahsur kalan 20 vatandaşın kurtarılması amacıyla Genelkurmay Başkanlığına ait bir helikopterin de çalışmalara katıldığı kaydedildi.\n                İŞ MAKİNESİ İLE ÇALIŞIRKEN HEYELANDA TOPRAK ALTINDA KALAN OPERATÖR ÖLDÜ \n                Hopa'nın Kemalpaşa Beldesi Sarp Köyü Yolbaşı sınır karakoluna ulaşım sağlamak için iş makinesi ile çalışma yapan İl Özel İdaresi çalışanı operatör Osman Korkmaz, saat 19.00 sıralarında aniden oluşan heyelan nedeniyle toprak altında kaldı. Geçici işçi statüsünde çalıştığı öğrenilen Korkmaz'ın cesedi, AKUT ve AFAD ekiplerinin çalışması sonrasında toprak altından çıkartıldı. 30 yaşındaki Osman Korkmaz'ın kısa süre önce evlendiği öğrenildi. Artvin'in Hopa, Borçka ve Murgul ilçelerinde dün akşamdan itibaren etkili olan yağış nedeniyle 3 kişinin hayatını kaybettiği belirtilerek Borçka'da mahsur kalan 2'si ağır 11 yaralının kurtarıldığı ifade edildi. Bölgede 36 arama kurtarma personeli, 9 araç ve 1 helikopter görevlendirildiği kaydedilerek aşırı yağış sebebiyle Artvin-Borçka, Borçka-Hopa ve Borçka-Murgul karayollarının ulaşıma kapandığını, Borçka ve Murgul ilçelerinde köylere ulaşımda sıkıntılar yaşandığını bildirildi. Türkiye Afet Müdahale Planı\"nın (TAMP) devreye alındığı, bu kapsamda \"Ulaşım ve Altyapı Hizmet Grubu\" ile \"Enerji Hizmet Grubu\"nun faaliyete geçirildiği belirtilerek şu ifadelere yer verildi:\n                \"Haberleşme sorunlarının giderilmesi amacıyla bölgeye yeterli sayıda mobil baz istasyonu sevk edildi, beslenme ihtiyacının karşılanması için Türk Kızılayı harekete geçti. Doğu Karadeniz ve Doğu Anadolu bölgelerinde bulunan illerimiz yaşanabilecek olumsuzluklara karşı Artvin, Rize, Giresun, Trabzon, Gümüşhane, Bayburt, Erzurum, Kars ve Ardahan illeri teyakkuz haline geçirildi.\" Afet bölgesindeki hasarlı yapılara kesinlikle girilmemesi\" uyarısının yapıldığı açıklamada, doğalgaz ve su vanaları ile elektrik şalterlerinin kapatılması, yolların acil yardım araçları için boş bırakılması, acil yardıma ihtiyaç duyulmadığı sürece telefonların kullanılmaması gerektiği bildirildi.\n                Vatandaşlara ayrıca, \"Sel baskınları sırasında su yatağı ve çukur bölgelerin terk edilmesi, yüksek ve güvenli yerlere çıkılması, sel sularına girilmemesi, araçların terk edilmesi ve çocukların sel suları ile oynamasına izin verilmemesi\" konusunda da uyarılarda bulunuldu. Borçka'da 6 katlı binanın iki katı çamurla doldu. Odasında oynarken çamur yığını altında kalan 3 yaşındaki Zümra Durmuş, yaralı olarak kaldırıldığı hastanede hayatını kaybetti. \n                Olay dün saat 20.30 sıralarında Maradit Caddesi’ndeki 6 katlı binada meydana geldi. Bölgede sabah saatlerinden itibaren etkili olan ve zaman zaman sağanak halinde yağan yağmur, akşam saatlerinde heyelana neden oldu. Yumuşayan toprak yüksek kesimlerden yağmur suyu ile birlikte Durmuş ailesinin yaşadığı 6 katlı binanın üzerine kaydı. Bu sırada ikinci kattaki odasında bulunan 3 yaşındaki Zümra Durmuş, toprak ve çamur yığınları arasında kaldı. Yakınlarının müdahalesiyle kurtarılan Zümra Durmuş, ambulansla Borçka Devlet Hastanesi’ne kaldırıldı. Talihsiz çocuk, doktorların çabasına rağmen kurtarılamadı. Bu arada, Arvin’de etkili olan yağış nedeniyle meydana gelen toprak kaymaları yüzünden bir süre ulaşıma kapanan Artvin - Borçka ve Artvin - Hopa karayolu, yapılan çalışmaların ardından açıldı. Şiddetli yağış nedeniyle oluşan heyelan nedeniyle Borçka-Hopa karayolu ulaşıma kapandı.\n                Kent genelinde dün akşam saatlerinde etkisini artıran yağış sonrası Borçka-Hopa karayolunun bazı bölümlerinde heyelan meydana geldi. Heyelan nedeniyle park halinde bulunan çok sayıda aracın ise zarar gördü. DSİ, karayolları ve Borçka Belediyesine bağlı ekipler tarafından yolun ulaşıma açılması için çalışma başlatıldı. Bu arada, İl Afet Ve Acil Durum Müdürlüğü (AFAD) ekipleri de güzergahta bulunan ve heyelan nedeniyle riskli görülen yerlerde yaşayan vatandaşların evlerinden tahliyesini sağladı. Öte yandan Rize'nin Çamlıhemşin ilçesinde Fırtına Deresi'nin taşması sonucu dere kenarında bulunan iş yerlerinde su baskınları meydana geldi. Dere kenarında bulunan iş yerleri su baskınları nedeniyle hasar gördü.\n                Dere kenarında bulunan iş yerleri sel nedeniyle sular altında kaldı ve maddi hasar meydana geldi. Yağışın ardından derelerin taşıdığı ağaç ve molozlarla kapanan Ayder Yaylası yolu ise belediye ekiplerinin çalışması sonucu kontrollü olarak ulaşıma açıldı.\n                Şiddetli yağış ve rüzgar nedeniyle Ayder'de bulunan otel ve işletmelerde de maddi hasar oluştu. Hemşin ilçe merkezinde bulunan yapay gölde de su seviyesinin yükselmesi nedeniyle ilçe merkezini su basmaması için gölün kapaklarının açıldığı bildirildi. Öte yandan, kriz merkezine yağış nedeniyle mağdur olan vatandaşların başvuruları alınıyor. Yağış sonrası bazı vatandaşların çatı uçması, bazılarının da tarım arazilerindeki zarar nedeniyle dilekçe verdiği öğrenildi."
+            }
+         }
+      }
+   }
+}

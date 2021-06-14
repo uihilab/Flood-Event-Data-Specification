@@ -6,7 +6,7 @@ The purpose of the specification is standardizing the flood event data collectio
 
 This repository provides the flood data event specification that is presented in the following publication:
 
-*Haltas, I., Yildirim, E., Oztas, F., Demir I. (2020) A Comprehensive Flood Event Data Specification and Inventory: 1930-2020 Turkey Case Study. TBD.*
+* Haltas, I., Yildirim, E., Oztas, F., & Demir, I. (2021). A comprehensive flood event specification and inventory: 1930–2020 Turkey case study. International Journal of Disaster Risk Reduction, 56, 102086.*
 
 <p align="center"> 
  <img src="Specification/Flood_Event_Specification_RD_Model.png" width="800">
@@ -20,8 +20,7 @@ In dataset folder, a comprehensive flood event inventory is shared for Turkey ca
 ## Citation
 If you use the specification or flood event inventory please cite the following publication:
 
-Haltas, I., Yildirim, E., Oztas, F., Demir I. (2020) A Comprehensive Flood Event Data Specification and Inventory: 1930-2020 Turkey Case Study. TBD.
-
+Haltas, I., Yildirim, E., Oztas, F., & Demir, I. (2021). A comprehensive flood event specification and inventory: 1930–2020 Turkey case study. International Journal of Disaster Risk Reduction, 56, 102086.
 
 ## Feedback
 
